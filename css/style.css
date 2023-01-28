@@ -5,4 +5,56 @@
     background: rgb(49,51,56);
     background: radial-gradient(circle, rgba(49,51,56,1) 0%, rgba(0,0,0,1) 100%);
     padding: 3%;
+    margin-top: 30px;
 }
+
+.titulo
+{
+    color: #7c7c7b;
+    padding-top: 20px;
+}
+
+.foto-nav
+{
+    margin-right: 20px;
+}
+
+.dark-mode{
+    background-color: #797676;
+    transition:background-color .5s;
+  }
+
+  .container-btn-mode{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 2;
+    font-size:0;
+  }
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border:2px solid black;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+  }
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .active{
+    background-color:black;
+    color:#ffcd5c !important;
+  }

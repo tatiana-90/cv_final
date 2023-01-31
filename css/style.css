@@ -66,8 +66,8 @@ h1,h2,h3,h4,h5,p,span,a
     border-bottom-right-radius: 20px;
   }
   .active{
-    background-color:black;
-    color:#ffcd5c !important;
+    color: #d605a8 !important;
+    background-color: #13151752;
   }
 
 .icono{

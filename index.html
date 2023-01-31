@@ -12,9 +12,10 @@
     <link rel="stylesheet" media="all" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" id="foto" >
-    <header class="encabezado_cv_index">
+    <header class="encabezado_cv_index" id="page">
         <img src="img/foto-tatiana.jpeg" class="rounded-circle" alt="Foto tatiana de mi cv con mi gato catch" width="20%" height="auto" > 
     <h1 class="titulo">CV Tatiana Schiavone</h1>
       </header>
@@ -27,13 +28,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section1">Section 1</a>
+              <a class="nav-link" href="#section1"><strong>Datos personales</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section2">Section 2</a>
+              <a class="nav-link" href="#section2">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section3">Section 3</a>
+              <a class="nav-link" href="#section3">Contacto</a>
             </li>
             <li class="nav-item">
               <div class="container-btn-mode">
@@ -49,30 +50,304 @@
           </ul>
         </div>
       </nav>
-    <main id="page"> 
-      <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
-        <h1>Section 1</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      </div>
+    <main id="fondo"> 
+      <article class="container--redes">
+        <!--incio de el primer icono-->
+          <div class="icon">
+            <a class="icon-primary" href="#">f</a>	
       
-      <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
-        <h1>Section 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      </div>
+            <div class="container-description">
+              <a class="icon-description" href="#">Comparte en facebook</a>	
+            </div>
+          </div>
+        <!--incio segundo icono-->
+          <div class="icon">
+            <a class="icon-primary color-twitter" href="#">t</a>	
       
-      <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
-        <h1>Section 3</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <div class="container-description ">
+              <a class="icon-description color-twitter" href="#">Comparte en Twitter</a>	
+            </div>
+          </div>
+        <!--incio tercer icono-->
+          <div class="icon">
+            <a class="icon-primary color-googleplus" href="#">g+</a>	
+      
+            <div class="container-description">
+              <a class="icon-description color-googleplus" href="#">Comparte en Google plus</a>	
+            </div>
+          </div>
+           
+      </article>
+
+      <div id="section1" class="container-fluid text-white primero">
+        <div class="container">
+          <div class="row">
+        <div class="col-6 recuadro" id="datos">
+          <h2 class="sub_titulo">Datos personales</h2>
+              <ul>
+                <li>
+                  <p>
+                    <i class="fa-solid fa-user icono fa-flip" style="--fa-animation-duration: 3s;"></i>Nombre: Tatiana
+                  </p>
+                </li>
+                <li>
+                  <p>Fecha de nacimiento: 30/11/1990</p>
+                </li>
+                <li>
+                  <p>Ubicacion: villa devoto - Buenos Aires - Argentina</p>
+                </li>
+                <li>
+                  <p>Teléfono: 15-111111111</p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fa-solid fa-user icono fa-flip" style="--fa-animation-duration: 3s;"></i>E-mail: Tatiana.schiavone@davinci.edu.ar
+                  </p>
+                </li>
+              </ul>
+          </div>
       </div>
+    </div>
+  </div>
+      
+      <div id="section2" class="container-fluid" style="padding:20px 0px;">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+        <h2>Título</h2>
+        <p><strong>Diseñadora multimedial</strong></p>
+        <h2>Habilidades</h2>
+        <p>Inglés</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped barra1" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" background-color: #732C60;></div>
+        </div>
+        <p class="mt-4">Photoshop</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped barra2" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p class="mt-4">Illustrator</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped barra3" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p class="mt-4">Web</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped barra4" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p class="mt-4">3D</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped barra5" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p class="mt-4">After Effects</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped barra6" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         <div class="col">
+          <h2 style="margin-top: 86px;">Desempeño laboral</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+         <p>Trabajo en grupo</p>
+         <div class="circle-wrap2">
+           <div class="circle2">
+             <div class="mask2 full2">
+               <div class="fill2"></div>
+             </div>
+             <div class="mask2 half">
+               <div class="fill2"></div>
+             </div>
+             <div class="inside-circle2"> 100%<br></div>
+           </div>
+         </div>
+
+</div>
+   <div class="col">
+         <p>Trabajo individual</p>
+         <div class="circle-wrap">
+           <div class="circle">
+             <div class="mask full">
+               <div class="fill"></div>
+             </div>
+             <div class="mask half">
+               <div class="fill"></div>
+             </div>
+             <div class="inside-circle"> 75%<br></div>
+           </div>
+         </div>
+         
+
+
+</div>
+
+
+</div>
+<div class="row mt-5">
+  <div class="col">
+    <p>Trabajo presencial</p>
+    <div class="circle-wrap2">
+    <div class="circle2">
+     <div class="mask2 full2">
+       <div class="fill2"></div>
+     </div>
+     <div class="mask2 half">
+       <div class="fill2"></div>
+     </div>
+     <div class="inside-circle2"> 100%<br></div>
+    </div>
+    </div>
+    
+    </div>
+    
+  <div class="col">
+<p>Trabajo virtual</p>
+<div class="circle-wrap2">
+<div class="circle2">
+ <div class="mask2 full2">
+   <div class="fill2"></div>
+ </div>
+ <div class="mask2 half">
+   <div class="fill2"></div>
+ </div>
+ <div class="inside-circle2"> 100%<br></div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div></div></div></div>
+<div class="fondo-experiencia">
+<div class="container">
+<div class="row mt-5">
+  <div class="col-6 recuadro-experiencia">
+<h2 class="mt-5 titulo-experiencia mb-5">14 años de Experiencia laboral</h2>
+<div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+  <span class="neon">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </span></div>
+  <div class="col titulo-experiencia">
+    <span class="texto-experiencia">(2008 - 2022) <br>  Trabaje como monotributista</span>
+  </div>
+
+  </div></div></div>
+
+
+
+  <div>
+
+
+    <div class="container  mt-5">
+      <div class="row">
+        <div class="col-2">
+    <span class="neon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </span></div>
+    <div class="col titulo-experiencia">
+      <span class="texto-experiencia">(2018 - 2022) <br> Experiencia laboral en Facebook para empresas</span>
+    </div>
+  
+    </div></div></div>
+
+
+
+    <div>
+
+
+      <div class="container  mt-5">
+        <div class="row">
+          <div class="col-2">
+      <span class="neon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </span></div>
+      <div class="col titulo-experiencia">
+        <span class="texto-experiencia">(2018 - 2022) <br> Experiencia laboral en Instagram para empresas</span>
+      </div>
+    
+      </div></div></div>
+      
+  <div class="mb-5">
+
+
+    <div class="container  mt-5">
+      <div class="row">
+        <div class="col-2">
+    <span class="neon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </span></div>
+    <div class="col titulo-experiencia">
+      <span class="texto-experiencia">(1 año de antigüedad) <br>actualemte trabajo en una empresa de Prensa y comunicación </span>
+    </div>
+  
+    </div></div></div>
+
+
+
+    </div>
+  </div>
+
+
+        </div>
+      </div></div>
+      </div>
+      </div>
+</div>
+    </div>
+      <div id="section3" class="container-fluid">
+        <div class="text-center" id="titulo-formulario">      
+
+              <div class="row">
+            <div class="col-6 recuadro-contacto">
+
+          <h2 class="p-3 mb-5">Enviame un mensaje para que te contacte</h2>  
+      
+  
+  
+        <form action="" id="formulario">
+          <div class="mb-3">
+            <input type="email" class="form-control" id="email"  name="email" placeholder="Mail" required>
+          </div>
+  
+  
+          <div class="mb-3">
+            <input type="input" class="form-control" id="nombre" name ="nombre" placeholder="Nombre" required>
+          </div>
+  
+  
+          <div class="mb-3">
+            <input type="tel" class="form-control" id="tel" name="telefono" placeholder="Teléfono" required>
+          </div>
+  
+  
+          <div class="mb-3">
+            <button type="submit" class="bubbly-button">Enviar info</button>
+          </div>
+        </form>
+      </div> </div> </div> </div>
       
     </main>
+    <script src="https://kit.fontawesome.com/74bd252f43.js" crossorigin="anonymous"></script>
     <script  src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <footer>
-      <p>Copyright © Tatiana =) 2023</p>
+    <footer class="footer-my">
+      <span>Copyright © Tatiana =) 2023</span>
     </footer>
   </body>
 </html>
